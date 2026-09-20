@@ -34,7 +34,8 @@
 // username = 12 // error
 // console.log(username);
 // --------------------------------------------
-
-
+// Watch Flag:
+// npx tsc -w app.ts // watching for file changes
+// --------------------------------------------
 
 
