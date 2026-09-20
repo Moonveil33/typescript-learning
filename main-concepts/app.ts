@@ -37,5 +37,15 @@
 // Watch Flag:
 // npx tsc -w app.ts // watching for file changes
 // --------------------------------------------
+// Type Inference Vs Type Annotaion
+
+// Type Inference like: 
+// let userAge = 12 // bydefault T.S hads zade type chi bashe
+// به صورت کلی برای وریبلی که نمیدونیم قراره ولیوش چی باشه تایپ در نظر نمیگیریم 
+// userAge = 'js' // error
+
+// Type Annotaion like: 
+// let username: string = 'alorez' // : string
+// --------------------------------------------
 
 
