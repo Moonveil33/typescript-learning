@@ -20,4 +20,12 @@
 // number = 99
 // number = 'ali' // error type
 // -------------------------------------------
+// Number Data Type
+
+// let userAge = 25
+// userAge = 30 // Ok 
+// userAge = 'ali' // error type
+// console.log(userAge);
+let userAge: number = 25
+
 
