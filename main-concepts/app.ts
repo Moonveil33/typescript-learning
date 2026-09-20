@@ -8,7 +8,7 @@
 
 // How TO Compile TS --> npx tsc app.ts
 // -------------------------------------
-// Static Type - Dynamic Type
+// Static Type - Dynamic Type:
 // Tooye JS mitooni variable ro reAsign koni ba data type haie mokhtalef
 
 
@@ -20,12 +20,21 @@
 // number = 99
 // number = 'ali' // error type
 // -------------------------------------------
-// Number Data Type
+// Number Data Type:
 
 // let userAge = 25
 // userAge = 30 // Ok 
 // userAge = 'ali' // error type
 // console.log(userAge);
-let userAge: number = 25
+// let userAge: number = 25  // number data type
+// -----------------------------------------------
+// String Data Type:
+// let username = 'amin_saeedi' // byDefault String
+// let username: string = 'amin_saeedi'
+// username = 12 // error
+// console.log(username);
+// --------------------------------------------
+
+
 
 
