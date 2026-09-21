@@ -37,7 +37,7 @@
 // Watch Flag:
 // npx tsc -w app.ts // watching for file changes
 // --------------------------------------------
-// Type Inference Vs Type Annotaion
+// Type Inference Vs Type Annotation:
 
 // Type Inference like: 
 // let userAge = 12 // bydefault T.S hads zade type chi bashe
@@ -46,6 +46,18 @@
 
 // Type Annotaion like: 
 // let username: string = 'alorez' // : string
+// --------------------------------------------
+// Boolean Data Type:
+// let isLogin = true // type inference
+// let isValid: boolean = false // type annotation
+
+// let isAdmin: boolean;
+// isAdmin = 0 // error
+// isAdmin = true
+
+// isLogin = false // Ok
+// isLogin = 0 // error
+// isLogin = Boolean(0) // Ok
 // --------------------------------------------
 
 
