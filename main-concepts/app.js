@@ -94,3 +94,10 @@
 // console.log(user.age);
 // console.log(user.skills);
 // -------------------------------------------
+// Multidimensional
+// 
+// let roles: (string|number)[][] = [
+//     [1, 'admin'],
+//     [2, 'user'],
+// ]
+// --------------------------------------------
