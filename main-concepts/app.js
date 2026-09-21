@@ -69,3 +69,28 @@
 // }
 // console.log(user.name);
 // --------------------------------------------
+// Array Data Type:
+// let users: string[] ==> just string in array
+// let users = ['ali', 'reza', 'erfan'] // ok
+// let users: string[] = ['alireza', 'erfan'] // Ok
+// let users: string[] = ['alireza', 'erfan', false] // error
+// let users: (string | number | boolean)[] = ['erfan', 12, true]
+// --
+// users.push(13) // Ok
+// users.push({abs: false}) // error
+// let user: {
+//     id: number,
+//     username: string,
+//     age: number,
+//     skills: string[]
+// } = {
+//     id: 1,
+//     username: 'Erfan',
+//     age: 22,
+//     skills: ['front-end', 'back-end']
+// }
+// console.log(user.id);
+// console.log(user.username);
+// console.log(user.age);
+// console.log(user.skills);
+// -------------------------------------------
