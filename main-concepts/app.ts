@@ -59,5 +59,27 @@
 // isLogin = 0 // error
 // isLogin = Boolean(0) // Ok
 // --------------------------------------------
+// Object Data Type :
+
+// Inference Type
+// let user = {
+//     id: 1
+// }
+// user.id = 'ali' // error
+// console.log(user);
 
 
+// Annotation Type 
+//  زمانیکه برای آبجکتی تایپ میخوایم در نظر بگیریم حتمام موظفیم که پراپرتی هاشم تعریف کنیم و تایپ پراپرتی ها هم همینطور
+
+// let user: object = {
+//     id: 1
+// }
+// error chon type property haro tarif nakardim
+// let user: {id: number, name: string, age: number} = {
+//     id: 1,
+//     name: 'erfan',
+//     age: 12
+// }
+// console.log(user.name);
+// --------------------------------------------
