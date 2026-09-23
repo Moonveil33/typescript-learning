@@ -94,10 +94,28 @@
 // console.log(user.age);
 // console.log(user.skills);
 // -------------------------------------------
-// Multidimensional
+// Multidimensional:
 // 
 // let roles: (string|number)[][] = [
 //     [1, 'admin'],
 //     [2, 'user'],
 // ]
 // --------------------------------------------
+// Tuple in Typescript:
+// محدود کردن تعداد آیتم های یک آرایه :
+// let role: [number, string] = [1, 'ADMIN'] // Tuple
+//  role[2] = 'user' // Error
+// role.push(1222)   // استثنا
+// console.log(role); // Push mishe Ok ! 
+// role [1] = 'USER'
+// console.log(role);
+// Tuple in Dimensional Arrays :
+// let roles: (string|number)[][] = [
+//     [1, 'ADMIN'],
+//     [2, 'USER']
+// ]
+// let roles: [string, number][] = [
+//     ['ADMIN', 1],
+//     ['USER', 2],
+// ]
+// -------------------------------------------------------
