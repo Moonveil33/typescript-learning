@@ -220,3 +220,15 @@
 // }
 // console.log(setCssProperty('rem'));
 // ----------------------------------------------------
+// Define Template Literal Type: 
+// let num1 = 12
+// let num2 = 13
+// let sum = `Sum: ${num1 + num2}`
+
+// function setCssProperty(param: `${number}px` | `${number}em` | `${number}rem`) {
+//     return param
+// }
+
+// console.log(setCssProperty('12px')); // Ok
+// console.log(setCssProperty('12%')); // Error
+// ------------------------------------------------------
