@@ -119,7 +119,7 @@
 //     ['USER', 2],
 // ]
 // -----------------------------------------------------
-// Type in Function Parameters :
+// Type in Function Arguments :
 // function isLogin(username: string, password: string|number) {
 //     if (username === 'admin' && password === 1222) {
 //         return true
@@ -129,4 +129,14 @@
 //   }
 // }
 // console.log(isLogin('amin', 1222));
+// -----------------------------------------------------
+// DataType --> Output of Function: 
+// function isLogin (username: string, password: string|number): boolean {
+//     if (username === 'admin' && password === 'admin') {
+//         return true
+//     } else {
+//         // return 12 // Error
+//         return false
+//     }
+// }
 // -----------------------------------------------------
