@@ -140,3 +140,16 @@
 //     }
 // }
 // -----------------------------------------------------
+//  Any Data Type:
+// any : هرچیزی : زیاد استفاده نکنید قابلیت تی اس رو ازمون میگیره -- وقتی ندونیم از سمت سرور چه ولیویی برامون قراره ارسال بشه استفاده میکنیم
+// let testVariable: any;
+// testVariable = 12
+// testVariable = false
+// testVariable = 'erf'
+// console.log(testVariable);
+// console.log( typeof testVariable); // string 
+// function sum (num1: any, num2: any): number {
+//     return num1 + num2
+// }
+// let testArray : any[] = ['admin', 12, false]
+// ---------------------------------------------------
