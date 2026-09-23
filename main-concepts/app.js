@@ -118,4 +118,15 @@
 //     ['ADMIN', 1],
 //     ['USER', 2],
 // ]
-// -------------------------------------------------------
+// -----------------------------------------------------
+// Type in Function Parameters :
+// function isLogin(username: string, password: string|number) {
+//     if (username === 'admin' && password === 1222) {
+//         return true
+//   }
+//   else {
+//     return false
+//   }
+// }
+// console.log(isLogin('amin', 1222));
+// -----------------------------------------------------
