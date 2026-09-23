@@ -172,3 +172,17 @@
 // }
 // const users: (string|number|boolean)[] = ['Ali', 23, false]
 // --------------------------------------------------
+// Literal Type:
+// محدود کردن وریبل که مقدارش هم مشخص باشه حتی
+// let num: 12 = 13 // Error
+// let num: 13 = 13 // Type: 13
+// const userAge = 12
+// userAge = 13 // Error
+// let age: 18 | 19 | 20 = 19
+// age = 19 // Ok
+// age = 30 // Error
+// function setCssProperty (param: 'px' | 'em' | 'rem') {
+//     return `20${param}`
+// }
+// console.log(setCssProperty('rem'));
+// ----------------------------------------------------
