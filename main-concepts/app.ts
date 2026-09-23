@@ -180,4 +180,27 @@
 
 // let testArray : any[] = ['admin', 12, false]
 // ---------------------------------------------------
+// Union Data Type:
+// ممکنه نیاز داشته باشم متغیر من هم تایپ رشته و هم عدد قبول کنه
+// let test: number | string = 12
+// test = 'str'
 
+
+// Error Occured : 
+// function sum (param1: number|string, param2: number|string) {
+//     return param1 + param2 // Error if use String
+// }
+// //
+
+
+// Solution:
+// function sum (param1: number|string, param2: number|string) {
+//     if (typeof param1 === 'number' && typeof param2 === "number") {
+//         return param1 + param2
+//     } else if (typeof param1 === 'string' && typeof param2 === "string") {
+//         return param1.toString() + param2.toString()
+//     }
+// }
+
+// const users: (string|number|boolean)[] = ['Ali', 23, false]
+// --------------------------------------------------
