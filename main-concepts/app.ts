@@ -232,3 +232,28 @@
 // console.log(setCssProperty('12px')); // Ok
 // console.log(setCssProperty('12%')); // Error
 // ------------------------------------------------------
+// unknown Type:
+// let test: unknown = 12   // unknown : tsCompiler typeChecking ro anjam mide
+
+// if (typeof test === 'number') {
+//     test++
+//     console.log(test);
+    
+// } 
+// if (typeof test === 'string') {
+//     console.log(test.length);
+    
+// }
+// test = 'js' //ok
+// test = false //ok
+
+
+// // any : ts compiler do not check the Type
+// console.log(test);
+
+// let test: any = 12
+// test++
+// test.length // بحث تایپ چکینگ رو از بین میبزه 
+// test.push(20) // error nmide vali errore
+// test.id = 1 // error nmide vali errore
+// ------------------------------------------------------
