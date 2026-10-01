@@ -257,3 +257,15 @@
 // test.push(20) // error nmide vali errore
 // test.id = 1 // error nmide vali errore
 // ------------------------------------------------------
+// Type Casting
+let test: unknown = 'Sabzlearn'
+let sitename = test as string // way one
+
+let siteTitle = <string>test  // way two
+
+console.log((test as string).length); // access to method od string
+
+let num1: unknown = "12"
+let num2: unknown = "8"
+
+console.log((num1 as number) + (num2 as number)); // 128 concat mikone
