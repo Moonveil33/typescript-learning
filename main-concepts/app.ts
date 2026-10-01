@@ -258,14 +258,72 @@
 // test.id = 1 // error nmide vali errore
 // ------------------------------------------------------
 // Type Casting
-let test: unknown = 'Sabzlearn'
-let sitename = test as string // way one
+// let test: unknown = 'Sabzlearn'
+// let sitename = test as string // way one
 
-let siteTitle = <string>test  // way two
+// let siteTitle = <string>test  // way two
 
-console.log((test as string).length); // access to method od string
+// console.log((test as string).length); // access to method od string
 
-let num1: unknown = "12"
-let num2: unknown = "8"
+// let num1: unknown = "12"
+// let num2: unknown = "8"
 
-console.log((num1 as number) + (num2 as number)); // 128 concat mikone
+// console.log((num1 as number) + (num2 as number)); // 128 concat mikone
+
+// --------------------------------------------------
+// Const Assertion: نشه انجام دادMutable variable
+
+// let num: 12 = 12 // way one
+// const num1 = 12 // way two
+// let num2 = 12 as const // way three
+
+
+// const numbers = [12, 13]
+// numbers.push(14) // push mishe ba inke const hast
+// console.log(numbers);
+// const numbers1 = [12, 13] as const // dge taghir nmishe dad
+// const user = {
+//     id: 1,
+//     name: 'Amin'
+// } as const
+// // user.name = 'ali' // mutable nist
+// console.log(user);
+
+// let numbers = [12, 133] as const
+// function sum (num1: number, num2:number): number {
+//     return num1 + num2
+// }
+
+// console.log(sum(...numbers));  // as const nabashe nemishe error mide
+
+
+
+// const favorites = ["Js", 'Study'] as const 
+// const users = [
+//     {
+//         id: 1,
+//         name: 'Amin',
+//         favorites
+//     }
+// ] as const
+
+// users[0].favorites.push('Next') // mutable hast bayad be array favorites ham const bedi
+// console.log(users);
+
+
+// ex:3 
+// let actions = [
+//     {type:'ADD_TODO'},
+//     {type:'REMOVE_TODO'},
+// ] as const
+
+// for (const action of actions) {
+//     if (action.type === 'CRATED') { // error  mide in meghdar to type ha nis . khili khoobe mifahmi age irad dashti
+//         console.log('Created');
+        
+//     } else {
+//         console.log('Removed');
+        
+//     }
+// }
+// --------------------------------------------------------
