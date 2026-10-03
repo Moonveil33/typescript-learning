@@ -408,3 +408,23 @@
 // } // ===> Undefined Data Type Function
 // console.log(logger2('alorez'));
 // ------------------------------------------------------
+// Function Type:
+// const sum =  (num1: number, num2: number): number => {
+//     return num1 + num2
+// }
+
+// const logger = (param: number): void => {
+//     console.log(`Result => ${param}`);
+    
+// }
+
+// // let testFunc : Function;
+// // let testFunc : (num1:number, num2: number) => number
+
+
+// testFunc = sum
+// // testFunc = 20 //error
+
+// console.log(sum(12, 8));
+// console.log(testFunc(12, 8));
+// -----------------------------------------------------
