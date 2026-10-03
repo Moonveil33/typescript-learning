@@ -327,3 +327,35 @@
 //     }
 // }
 // --------------------------------------------------------
+// Type Cating in working with DOM:
+
+// const numbers = [12, 13] as const // way one
+// const numbers = <const>[12, 13] // wat two
+
+// const liElem = document.querySelector('.link')
+// console.log(liElem.href); // ts nmishnase
+
+// const liElem = document.querySelector('.link') as HTMLAnchorElement  // One
+
+// console.log(liElem.href);  // Ok
+
+// const usernameInput = document.querySelector('input') as HTMLInputElement // Two
+
+// console.log(usernameInput.placeholder);
+
+// const passwordInput = <HTMLInputElement> document.querySelector('.password') // Three
+// console.log(passwordInput.placeholder);
+
+
+// const btnElem = <HTMLButtonElement>document.querySelector('button') //Four
+// console.log(btnElem.innerHTML); 
+
+
+// const btnElem = document.querySelector('button')! // Five
+// console.log(btnElem.innerHTML);
+
+
+// const btnElem = document.querySelector('button')
+// console.log((btnElem as HTMLButtonElement).innerHTML); //six
+
+// ------------------------------------------------------
