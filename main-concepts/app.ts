@@ -428,3 +428,14 @@
 // console.log(sum(12, 8));
 // console.log(testFunc(12, 8));
 // -----------------------------------------------------
+// Working with Call Function in TS:
+
+// const sum = (num1: number, num2: number, callback: (param:number) => void): void => {
+//     const result = num1 + num2
+//     callback(result)
+// }
+// sum(12, 3, (result) => {
+//     console.log(`result => ${result}`);
+    
+// })
+// ------------------------------------------------------
