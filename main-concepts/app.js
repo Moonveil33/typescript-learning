@@ -308,4 +308,16 @@
 // } else {
 //     console.log('access denied');
 // }
+// enum : پیچیدگی وارد پروژه میکنه
+// ------------------------------------------------------
+// Void & Undefined Data Type in Functions:
+// Void : no return in function 
+// const logger = (param: (string|number)) => {
+//     console.log('Result ==>', param);
+// } // ===> Void Data Type Function
+// const logger2 = (param:string): undefined => {
+//     console.log('Result ==>', param);
+//     return undefined
+// } // ===> Undefined Data Type Function
+// console.log(logger2('alorez'));
 // ------------------------------------------------------
