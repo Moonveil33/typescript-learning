@@ -359,3 +359,36 @@
 // console.log((btnElem as HTMLButtonElement).innerHTML); //six
 
 // ------------------------------------------------------
+// Enum Data Type:
+
+// enum Role {
+//     Admin,
+//     User,
+//     Teacher
+// }
+
+// console.log(Role);
+
+
+// const user: {
+//     id: number,
+//     name: string,
+//     age: number,
+//     role: Role // Enum Role ro pas midim
+// } = {
+//     id: 1,
+//     name: 'amin',
+//     age: 22,
+//     role: Role.Admin // enum ro midim
+// }
+
+// console.log(user);
+
+// if (user.role === Role.Admin) {
+//     console.log('access');
+    
+// } else {
+//     console.log('access denied');
+    
+// }
+// ------------------------------------------------------
