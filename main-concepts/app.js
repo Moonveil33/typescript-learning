@@ -344,3 +344,28 @@
 //     console.log(`result => ${result}`);
 // })
 // ------------------------------------------------------
+// Alias Type:
+// const item1: number | string = 12
+// const item2: number | string = 18
+// const item3: number | string = 20
+// ma 3 bar tekrar kardim va az asl clean code peiravi nakardim
+// ----
+// type combine = number | string // alias type
+// const item1: combine = 12
+// const item2: combine = 18
+// const item3: combine = 20
+// ----
+// type boolOrNum = boolean | number
+// type combine = number | string // alias type
+// const item1: combine | boolOrNum = 12
+// const item2: combine = 18
+// const item3: combine = 20
+// ----
+// type boolOrNum = boolean | number
+// type combine = boolOrNum | string // alias type
+// const item1: combine = 12
+// const item2: combine = 18
+// const item3: combine = 20
+// ----
+// type fakeTexts = 'math' | 'random'
+// ------------------------------------------------------
